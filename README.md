@@ -1,2 +1,2 @@
-# GitHubCI
-cloud native website
+# Techtrends
+A basic cloud native website
