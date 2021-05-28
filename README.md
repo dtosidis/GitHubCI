@@ -1,2 +1,2 @@
 # Techtrends
-basic cloud native website
+Basic cloud native website
