@@ -3,10 +3,9 @@ LABEL maintainer="Dimitris"
 
 EXPOSE 3111
 
-COPY /techtrends/requirements.txt .
+COPY techtrends/ /app
+WORKDIR /app
 RUN pip install -r requirements.txt
-
-COPY /techtrends .
 RUN python init_db.py
 
 # command to run on container start
