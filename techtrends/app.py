@@ -16,7 +16,7 @@ def get_db_connection():
         db_connection_count += 1
         return connection
     except Exception as e:
-        logging.error(f'DB exception: {e}')
+        logging.error('DB exception:{}'.format(e))
 
 # Function to get a post using its ID
 def get_post(post_id):
