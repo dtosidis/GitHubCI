@@ -1,2 +1,2 @@
-# Techtrends
-A basic cloud native website
+# GithubCI
+Automated docker container with Github that facilitates sample website.
